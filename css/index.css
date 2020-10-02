@@ -51,6 +51,21 @@ table {
     box-sizing: border-box;
 }
 
+.topic{
+    padding: 20px 2%;
+    font-size: 14px;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    justify-content:center;
+}
+
+.topic a {
+  color:black;
+  margin-left:20px;
+  
+}
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -104,13 +119,33 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+ .boxes div:nth-child(1){
+  background-color:teal;}
+ .boxes div:nth-child(2){
+   background-color:gold;}
+ .boxes div:nth-child(3){
+   background-color:cadetblue;}
+ .boxes div:nth-child(4){
+   background-color:coral;}
+ .boxes div:nth-child(5){
+   background-color:crimson;}
+ .boxes div:nth-child(6){
+   background-color:forestgreen;}
+ .boxes div:nth-child(7){
+   background-color:darkorchid;}
+ .boxes div:nth-child(8){
+   background-color:hotpink;}
+ .boxes div:nth-child(9){
+   background-color:indigo;}
+ .boxes div:nth-child(10){
+   background-color:dodgerblue;}
 
 .bottom-content {
     display: flex;
@@ -127,6 +162,7 @@ p {
 }
 
 footer {
+    
     width: 100%;
     background: black;
 }
@@ -143,4 +179,37 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+.jp{
+  width:100%;
+  justify-content:center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.info{
+  margin-top:100px;
+  margin-bottom:100px;
+  border-top: 5px dotted black;
+  border-bottom: 5px dotted black;
+  padding:50px;
+  
+  display:flex;
+  flex-flow:wrap row;
+justify-content:space-between;
+  
+}
+.mation{
+ border-bottom:3px dotted black;
+ width:40%;
+ justify-content: space-between;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ margin-left: 10px;
+ margin-right: 10px;
+}
+.learn{
+    border:2px solid black;
+    padding:4px;
 }
